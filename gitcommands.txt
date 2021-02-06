@@ -1,0 +1,29 @@
+git status
+git add
+git add .{ it add all untracked files}
+git commit -m "comments"
+git push
+----------------
+git status -s {it gives short form}
+git log
+git log --oneline
+git config --global user.name "xxx"
+git config --global user.email "xyz@gmail.com"
+git commit -a -m "comment" {it is going to add all files and commited}
+git checkout id   {get back to previous commit}
+git diff {it gives what changes you have done}
+git branch bname    {create branch}
+git branch -v    { checks on which branch you are}
+git checkout bname    {to move one branch to another}
+git merge bname   {to merge with modified files}
+{you need to merge it from master branch only}
+git branch -d bname {to delete branch}
+git rever head  {it goes to previous commit}
+git clean -n {it shows you un committed files to clean}
+git clean -f   {it remove the files}
+-----------
+git remote add origin https{get it from web github create a repository u will get there}
+git push origin master  {to update the git repository}
+git pull origin master  { to get updated data from origin}
+git clone {to get whole repository from origin}
+
